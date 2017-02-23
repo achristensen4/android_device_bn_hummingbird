@@ -22,7 +22,7 @@ batt.temp.sensor.sysfs.node=/sys/devices/platform/omap/omap_i2c.1/i2c-1/1-0055/p
 cpu.temp.sensor.sysfs.node=/sys/devices/platform/omap/omap_temp_sensor.0/temp1_input
 # charge current sys fs node property to be used by ThermalValidation
 charge.current.sysfs.node=/sys/devices/platform/omap/omap_i2c.1/i2c-1/1-0055/power_supply/bq27500-0/current_now
-telephony.sms.send=false
+telephony.sms.send=true
 
 ro.vold.switchablepair=/storage/sdcard0,/storage/sdcard1
 persist.sys.usb.config=mtp,adb
